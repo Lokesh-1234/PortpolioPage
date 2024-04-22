@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../static/images/your-image.jpg" type="image/x-icon">
+    <title>Lokesh Portfolio</title>
+</head>
+<body>
+
+    <header>
+        
+        <h1>Lokesh Rachuri</h1>
+        <p> Machine Learning Engineer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        
+            <div class="profile-picture">
+                <img id="profileImage" src="../static/images/profile.jpg" alt="Profile Emoji">
+            </div>
+
+            <p>
+                🎓 Hey there! I'm Lokesh Rachuri,
+                <br><br>
+                💻 As a highly skilled and diligent individual, I am actively seeking an opportunity to establish a rewarding career in the dynamic field of data science. 
+                <br><br>
+                🚀 With a passion for leveraging analytical tools, statistics, and machine learning techniques, I am eager to contribute my expertise to drive actionable insights and innovation within the organization where I work.
+                <br><br>
+            
+                🎯 My goal is to utilize my proficiency in data analysis, exploratory data visualization, and predictive modeling to tackle complex challenges, optimize processes, and drive business growth.
+                <br><br>
+                   I am committed to continuous learning and growth, aiming to make meaningful contributions to the field of data science while advancing both personal and organizational objectives.
+            </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ol>
+            <li>Python</li>
+            <li>Excel</li>
+            <li>SQL</li>
+            <li>Statistics</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>DJango</li>
+            <li>Flask</li>
+            <li>NLP</li>
+            <!-- Add more skills as needed -->
+        </ol>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Add your project details here -->
+        <div class="project">
+            <h3>Project 1</h3>
+            <h3>Autonomous landing scene recognition based on transfer learning for drones</h3>
+            <p>Description of Project 1.</p>
+            
+            <ul>
+                <li>Developed a model for drones to autonomously recognize landing scenes using transfer learning.</li>
+                <br></br>
+                <li>Collected images through web scraping and curated a dataset with seven distinct classes.</li>
+            
+                <br></br>
+                <li>Designed and implemented a user interface (UI) using the Flask framework for user interaction.</li>
+                <br></br>
+            </ul>
+            
+            
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+          
+            <h3>Classification and Detection of Plant Leaf Diseases for various crops using DL and YOLO</h3>
+            <p>Description of Project 2.</p>
+            
+            <ul>
+                <li>Developed classification and detection models for plant leaf diseases across various crops.</li>
+                <br></br>
+                <li>Utilized Xception, AlexNet, VGG16, and GoogLeNet for leaf disease classification, and YOLOv5, YOLOv6, YOLOv7, and YOLOv8 for object detection on three datasets.</li>
+                <br></br>
+                <li>Prepared datasets for apple leaf, tomato leaf, and grape leaf, and annotated them using the Roboflow tool.</li>
+                <br></br>
+                <li>Designed and implemented a user interface (UI) using the Flask framework for seamless interaction</li>
+                <br></br>
+            </ul>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <h3>Analysis of Sales using EDA</h3>
+            <p>Description of Project 3.</p>
+            
+            <ul>
+                <li>Conducted Exploratory Data Analysis (EDA) on sales data to uncover insights and patterns.</li>
+                <br></br>
+                <li>Cleaned and processed raw sales data to ensure accuracy and integrity.</li>
+                <br></br>
+                <li>Utilized various EDA techniques, including data visualization and statistical analysis, to identify trends and correlations within the sales dataset.</li>
+                <br></br>
+                <li>Generated actionable insights to optimize sales strategies and enhance business performance</li>
+                <br></br>
+                <li>Presented findings through comprehensive reports and visualizations for stakeholders' understanding</li>
+                <br></br>
+            </ul>
+            
+            
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="{{ url_for('download_resume') }}">Here</a>.</p>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <!-- Add your contact information here -->
+        <p>Email: lokeshrachuri177@email.com</p>
+        <p>Phone: +91 6303212724</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lokesh Rachuri. All rights reserved.</p>
+        <!-- Add additional links or information if needed -->
+    </footer>
+
+    
+    <script src="../static/js/script.js"></script>
+
+</body>
+</html>
